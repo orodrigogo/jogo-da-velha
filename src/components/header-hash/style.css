@@ -1,0 +1,12 @@
+.header-hash {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 0 20px;
+}
+
+.header-hash .about-hash {
+  position: absolute;
+  right: 50px;
+}

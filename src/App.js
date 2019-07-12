@@ -1,15 +1,7 @@
 import React from "react";
-import Logo from "./objects/logo-hash";
-import AboutHash from "./objects/about-hash";
-import MenuHash from "./objects/menu-hash";
+import HeaderHash from "./components/header-hash";
 
 function App() {
-  return (
-    <div>
-      <Logo />
-      <AboutHash />
-      <MenuHash />
-    </div>
-  );
+  return <HeaderHash />;
 }
 export default App;
