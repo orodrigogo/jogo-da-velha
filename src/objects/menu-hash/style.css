@@ -1,0 +1,19 @@
+.menu-hash {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.menu-hash::before,
+.menu-hash > .midlle,
+.menu-hash::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--color-fourth);
+}
+
+.menu-hash > .midlle {
+  margin: 5px 0;
+}
