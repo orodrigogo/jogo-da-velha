@@ -1,12 +1,8 @@
 import React from "react";
-import "./App.css";
+import AboutHash from "./objects/about-hash";
 
 function App() {
-  return (
-    <a href="#to-do" className="about-hash">
-      Sobre
-    </a>
-  );
+  return <AboutHash />;
 }
 
 export default App;
