@@ -1,0 +1,8 @@
+.section-hash {
+  width: 290px;
+  height: 290px;
+  background-color: var(--color-zero);
+  margin: 105px auto;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+}
