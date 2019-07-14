@@ -1,13 +1,14 @@
 import React from "react";
+import "./App.css";
 import HeaderHash from "./components/header-hash";
-import SectionHash from "./components/section-hash";
+import GameTable from "./components/Game-Table";
 
 function App() {
   return (
-    <>
+    <main className="app">
       <HeaderHash />
-      <SectionHash />
-    </>
+      <GameTable />
+    </main>
   );
 }
 export default App;

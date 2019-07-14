@@ -1,0 +1,12 @@
+.app > .header-hash {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.app > .section-hash {
+  box-sizing: border-box;
+  width: 90vw;
+  height: 90vw;
+  margin: 100px auto 0;
+  padding: 16px;
+}

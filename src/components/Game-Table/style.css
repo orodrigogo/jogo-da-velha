@@ -1,0 +1,13 @@
+.game-table {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 3px;
+  background-color: var(--color-third);
+}
+.game-table > .items {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
