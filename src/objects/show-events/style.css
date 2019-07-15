@@ -1,0 +1,9 @@
+.show-events {
+  font-family: inherit;
+  color: var(--color-fourth);
+  background-color: inherit;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}

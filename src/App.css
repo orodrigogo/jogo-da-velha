@@ -1,12 +1,24 @@
 .app > .header-hash {
-  width: 90vw;
+  width: 82vw;
   margin: 0 auto;
 }
 
 .app > .section-hash {
   box-sizing: border-box;
-  width: 90vw;
-  height: 90vw;
+  width: 82vw;
+  height: 82vw;
   margin: 100px auto 0;
   padding: 16px;
+}
+
+.app > .wrapper-showEvents {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin: 40px auto;
+}
+
+.app > .wrapper-showEvents > .check-show {
+  width: 20px;
+  height: 20px;
 }

@@ -2,3 +2,10 @@ body {
   background-color: var(--color-second);
   font-family: "Montserrat", sans-serif;
 }
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}

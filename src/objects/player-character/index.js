@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import PlayerX from "../../img/X.png";
 import PlayerCircle from "../../img/Circle.png";
 

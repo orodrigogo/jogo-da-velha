@@ -16,7 +16,7 @@ const GameTable = () => (
         <Player player="o" />
       </li>
       <li className="items">
-        <Player player="o" />
+        <Player player="x" />
       </li>
       <li className="items">
         <Player player="x" />
