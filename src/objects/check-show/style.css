@@ -1,6 +1,0 @@
-.check-show {
-  border: 3px solid var(--color-fourth);
-  background-color: var(--color-second);
-  border-radius: var(--spacing-radius);
-  cursor: pointer;
-}
