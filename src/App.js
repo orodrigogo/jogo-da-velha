@@ -1,15 +1,16 @@
 import React from "react";
 import "./App.css";
-import WrapperShowEvents from "./components/wrapper-showEvents";
+
 import HeaderHash from "./components/header-hash";
 import GameTable from "./components/Game-Table";
+import ShowEvents from "./objects/show-events";
 
 function App() {
   return (
     <main className="app">
       <HeaderHash />
       <GameTable />
-      <WrapperShowEvents />
+      <ShowEvents />
     </main>
   );
 }

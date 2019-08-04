@@ -9,16 +9,5 @@
   height: 82vw;
   margin: 100px auto 0;
   padding: 16px;
-}
-
-.app > .wrapper-showEvents {
-  display: flex;
-  justify-content: space-between;
-  width: 150px;
-  margin: 40px auto;
-}
-
-.app > .wrapper-showEvents > .check-show {
-  width: 20px;
-  height: 20px;
+  margin-bottom: var(--spacing-md);
 }
