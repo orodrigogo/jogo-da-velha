@@ -4,6 +4,7 @@ import "./App.css";
 import HeaderHash from "./components/header-hash";
 import GameTable from "./components/Game-Table";
 import ShowEvents from "./objects/show-events";
+import AboutLayer from "./objects/about-layer";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <HeaderHash />
       <GameTable />
       <ShowEvents />
+
+      <AboutLayer />
     </main>
   );
 }
