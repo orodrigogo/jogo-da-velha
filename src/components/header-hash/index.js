@@ -1,15 +1,16 @@
 import React from "react";
 import "./style.css";
-import Logo from "../../objects/logo-hash";
-import AboutHash from "../../objects/about-hash";
 import MenuHash from "../../objects/menu-hash";
+import AboutHash from "../../objects/about-hash";
+import Logo from "../../objects/logo-hash";
+import HeaderLayer from "../../objects/header-layer";
 
-const HeaderHash = () => (
-  <header className="header-hash">
+const HeaderHash = ({ className }) => (
+  <HeaderLayer className="header-hash">
     <Logo />
     <AboutHash />
     <MenuHash />
-  </header>
+  </HeaderLayer>
 );
 
 export default HeaderHash;

@@ -1,0 +1,31 @@
+.about-developer {
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--color-zero);
+  width: 82vw;
+  padding: 0 15px;
+}
+
+.about-developer .image-profile {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: var(--spacing-md);
+}
+
+.about-developer > .title {
+  font-size: var(--size-big);
+  font-weight: bold;
+  margin-bottom: var(--spacing-small);
+}
+
+.about-developer > .description {
+  font-size: var(--size-small);
+  line-height: 1.4;
+  margin-bottom: var(--spacing-big);
+}
+
+.about-developer > .networks {
+  display: flex;
+  justify-content: space-evenly;
+}

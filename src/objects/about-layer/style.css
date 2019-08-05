@@ -6,3 +6,21 @@
   top: 0;
   left: 0;
 }
+
+.about-layer > .header-aboutLayer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-very-big);
+}
+
+.header-aboutLayer > .about-hash.-pale {
+  color: var(--color-zero);
+  margin-left: auto;
+  margin-right: var(--spacing-small);
+}
+.about-layer .aboutDeveloper-wrapper {
+  display: flex;
+  justify-content: center;
+}

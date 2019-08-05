@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-const AboutHash = () => {
+const AboutHash = ({ className }) => {
   return (
-    <a href="#to-do" className="about-hash">
+    <a href="#to-do" className={`about-hash ${className}`}>
       Sobre
     </a>
   );

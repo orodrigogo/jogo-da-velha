@@ -9,3 +9,10 @@ button {
   padding: 0;
   cursor: pointer;
 }
+
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}

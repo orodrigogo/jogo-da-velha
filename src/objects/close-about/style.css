@@ -1,0 +1,28 @@
+.closeAbout {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.closeAbout::before,
+.closeAbout::after {
+  content: "";
+  width: 24px;
+  border-radius: 2px;
+  border: 2px solid var(--color-zero);
+  position: absolute;
+  top: 45%;
+}
+
+.closeAbout::before {
+  transform: rotate(45deg);
+}
+
+.closeAbout::after {
+  transform: rotate(-45deg);
+}
+
+.closeAbout .content {
+  display: inline-block;
+  text-indent: -9999px;
+}
