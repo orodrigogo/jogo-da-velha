@@ -1,4 +1,5 @@
-.app > .header-hash {
+.app > .header-hash,
+.header-aboutLayer {
   width: 82vw;
   margin: 0 auto;
 }

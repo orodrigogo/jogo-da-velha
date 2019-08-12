@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const CloseAbout = () => (
-  <a href="#to-do" className="closeAbout">
+const CloseAbout = ({ onClick }) => (
+  <a href="#to-do" className="closeAbout" onClick={onClick}>
     <span className="content">Fechar</span>
   </a>
 );

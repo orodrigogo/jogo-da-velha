@@ -3,14 +3,13 @@ import "./style.css";
 import MenuHash from "../../objects/menu-hash";
 import AboutHash from "../../objects/about-hash";
 import Logo from "../../objects/logo-hash";
-import HeaderLayer from "../../objects/header-layer";
 
-const HeaderHash = ({ className }) => (
-  <HeaderLayer className="header-hash">
+const HeaderHash = ({ className, onClick }) => (
+  <header className="header-hash">
     <Logo />
-    <AboutHash />
-    <MenuHash />
-  </HeaderLayer>
+    <AboutHash onClick={onClick} />
+    <MenuHash onClick={onClick} />
+  </header>
 );
 
 export default HeaderHash;

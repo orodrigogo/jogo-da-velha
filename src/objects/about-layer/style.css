@@ -5,22 +5,14 @@
   position: absolute;
   top: 0;
   left: 0;
+  transform: translateX(100%);
+  transition: transform 180ms linear;
 }
 
-.about-layer > .header-aboutLayer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: var(--spacing-md);
-  margin-bottom: var(--spacing-very-big);
+.about-layer.-show {
+  transform: translateX(0);
 }
 
-.header-aboutLayer > .about-hash.-pale {
-  color: var(--color-zero);
-  margin-left: auto;
-  margin-right: var(--spacing-small);
-}
-.about-layer .aboutDeveloper-wrapper {
-  display: flex;
-  justify-content: center;
+.about-layer .about-developer {
+  margin: 0 auto;
 }

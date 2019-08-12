@@ -1,0 +1,14 @@
+.header-aboutLayer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding-top: var(--spacing-md);
+  margin-bottom: var(--spacing-very-big);
+}
+
+.header-aboutLayer > .about-hash.-pale {
+  color: var(--color-zero);
+  margin-left: auto;
+  margin-right: var(--spacing-small);
+}

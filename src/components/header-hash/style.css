@@ -3,12 +3,12 @@
   height: 40px;
   justify-content: space-between;
   align-items: center;
-  padding-top: 18px;
+  padding-top: var(--spacing-md);
 }
 
 .header-hash > .about-hash {
   margin-left: auto;
-  margin-right: 10px;
+  margin-right: var(--spacing-small);
 }
 
 .header-hash > .menu-hash {
