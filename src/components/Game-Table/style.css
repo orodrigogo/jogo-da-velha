@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 3px;
+  grid-gap: 4px;
   background-color: var(--color-third);
 }
 .game-table > .items {

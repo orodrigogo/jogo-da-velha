@@ -1,7 +1,14 @@
+html,
+body {
+  height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--color-second);
   font-family: "Montserrat", sans-serif;
-  overflow-x: hidden;
+  position: relative;
 }
 
 button {

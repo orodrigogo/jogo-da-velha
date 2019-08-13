@@ -4,6 +4,7 @@
   color: var(--color-zero);
   width: 82vw;
   padding: 0 15px;
+  height: 100vh;
 }
 
 .about-developer .image-profile {

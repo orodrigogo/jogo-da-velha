@@ -6,8 +6,8 @@
 
 .app > .section-hash {
   box-sizing: border-box;
-  width: 82vw;
-  height: 82vw;
+  width: 84vw;
+  height: 84vw;
   margin: 100px auto 0;
   padding: 16px;
   margin-bottom: var(--spacing-big);
